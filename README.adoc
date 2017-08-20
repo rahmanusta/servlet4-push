@@ -85,7 +85,7 @@ asadmin start-domain domain1
 asadmin deploy Servlet4Push.war
 ----
 +
-. Open the URL https://localhost:8181/Servlet4Push/http2 and watch the network traffic.
+. Open the URL https://localhost:8181/Servlet4Push/http2 and watch the network traffic. Don't forget to use HTTPS, it won't work if you use HTTP (details here: https://http2.github.io/faq/#what-does-http2-do-to-improve-security).
 
 image::https://en.kodedu.com/wp-content/uploads/2017/04/http2-servlet-push-api.png[]
 
